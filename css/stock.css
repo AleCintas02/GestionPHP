@@ -1,0 +1,58 @@
+.contenido{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla{
+    width: 90%;
+    margin-bottom: 300px;
+
+}
+
+#buscador{
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+
+#buscador a{
+    margin-right: 7px;
+}
+
+.porcentaje{
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+@media (max-width:550px) {
+    .tabla{
+        font-size: 0.8rem;
+        width: 100%;
+    
+    }
+    i{
+        font-size: 0.6rem;
+    
+    }
+
+    @media (max-width:368px){
+        i{
+            font-size: 0.5rem;
+        
+        }
+    }
+    @media (max-width:316px){
+        .tabla{
+            font-size: .8rem;
+            width: 100%;
+        
+        }
+        i{
+            font-size: 0.7rem;
+        
+        }
+    }
+}
