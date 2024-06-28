@@ -84,10 +84,10 @@ session_start();
                         <td><?php echo $datos['apellido'] ?></td>
                         <td><?php echo $datos['correo'] ?></td>
                         <td><?php echo $datos['telefono'] ?></td>
-                        <td><?php echo $fecha_mostrar ?></td>
-                        <td><?php $fechaVencimiento = date('d/m/Y', strtotime($datos['fecha'] . '+30 days'));
+                        <td style="color: blue"><?php echo $fecha_mostrar ?></td>
+                        <td style="color: red"><?php $fechaVencimiento = date('d/m/Y', strtotime($datos['fecha'] . '+30 days'));
                             echo $fechaVencimiento ?></td>
-                        <td> <?php
+                        <td style="color: green" > <?php
                                 $fechaVencimiento = strtotime(date('d-m-Y', strtotime($datos['fecha'] . '+30 days')));
                                 $hoy = strtotime(date('d-m-Y'));
                                 $diasRestantes = ($fechaVencimiento - $hoy) / (60 * 60 * 24);

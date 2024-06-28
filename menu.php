@@ -14,13 +14,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" href="">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" href="stock.php">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Clientes</a>
+          <a class="nav-link" href="clientes.php">Clientes</a>
         </li>
       </ul>
       <ul class="navbar-nav d-flex flex-row ms-auto me-3">
